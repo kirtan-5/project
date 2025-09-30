@@ -36,12 +36,10 @@ nav {
 }
             
 .hero {
-    
     color: #fff;
     padding: 80px 20px;
     text-align: center;
     background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
-    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,14 +68,14 @@ nav {
     transition: background 0.2s;
     display: flex;
     justify-content: center;
-  /* width: 100px;
-  position: relative;
-  left: 400px;
-  font-weight: 400px; */
+}
+
+.btn:hover {
+    background: #0400ff6d;
 }
 
 .btn1{
-  background: #0400ff6d;
+    background: #1976d27b;
     color: #fff;
     padding: 12px 30px;
     border-radius: 4px;
@@ -85,21 +83,16 @@ nav {
     cursor: pointer;
     text-decoration: none;
     transition: background 0.2s;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     width: 100px;
-    position: relative;
-    left: 650px;
-    font-weight: 400px;
-    border-radius: 15px;
 }
 
 .btn1:hover {
     background: #0400ff6d;
 }
             
-.btn:hover {
-    background: #0400ff6d;
-}
-
 .about {
     padding: 60px 20px;
     background: #fff;
@@ -117,7 +110,6 @@ nav {
     color: #666;
     max-width: 800px;
     margin: 0 auto;
-    line-height: 1.6;
 }
 
 .packages {
@@ -150,14 +142,9 @@ nav {
     transition: transform 0.3s;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
 .card img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
 }
 
 .card-content {
@@ -190,7 +177,6 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -200,7 +186,6 @@ footer {
 
 .footer-section {
     flex: 1;
-    min-width: 250px;
 }
 
 .footer-section h3 {
@@ -264,4 +249,3 @@ nav {
     margin-top: 10px;
 }
 }
-
